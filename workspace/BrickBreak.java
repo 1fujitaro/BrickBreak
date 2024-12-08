@@ -221,6 +221,7 @@ public class BrickBreak extends JPanel implements KeyListener, ActionListener {
 		}
 
 		if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+			System.out.println("enter");
 			play = false;
 			ball.setX(350);
 			ball.setY(450);
